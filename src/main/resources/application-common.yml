@@ -1,12 +1,8 @@
-server:
-  port: 9000
-
+###平台公共配置数据
 spring:
   application:
      name: xxl-job-admin
      version: 1.0
-  profiles:
-    active: dev
   freemarker:
     prefix:
     suffix: .ftl

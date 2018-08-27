@@ -1,0 +1,7 @@
+### 生产环境配置信息
+server.port: 9000
+### 如果需要激活多个属性，中间用逗号分隔，主要在环境配置做条件时使用，如swagger生产环境不开放等
+#spring.profiles.active: common,dev
+spring.profiles.active: common
+
+### xxl-job db

@@ -1,9 +1,15 @@
+### 开发环境配置信息
+server.port: 9000
+### 如果需要激活多个属性，中间用逗号分隔，主要在环境配置做条件时使用，如swagger生产环境不开放等
+#spring.profiles.active: common,dev
+spring.profiles.active: common
+
 ### xxl-job db
 xxl.job.db:
    driverClass: com.mysql.jdbc.Driver
    url: jdbc:mysql://localhost:3306/xxl-job?useUnicode=true&characterEncoding=UTF-8&useSSL=false
    user: root
-   password: passw0rd
+   password: 123456
 
 ### xxl-job email
 xxl.job.mail:
@@ -23,3 +29,6 @@ xxl.job.accessToken:
 
 ### xxl-job, i18n (default empty as chinese, "en" as english)
 xxl.job.i18n:
+
+
+
